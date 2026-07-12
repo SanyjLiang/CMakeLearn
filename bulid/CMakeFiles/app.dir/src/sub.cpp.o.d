@@ -1,4 +1,4 @@
-CMakeFiles/app.dir/muli.cpp.o: /home/syjl/CMakeLearn/v1/muli.cpp \
+CMakeFiles/app.dir/src/sub.cpp.o: /home/syjl/CMakeLearn/v1/src/sub.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/8/iostream \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -109,4 +109,5 @@ CMakeFiles/app.dir/muli.cpp.o: /home/syjl/CMakeLearn/v1/muli.cpp \
  /usr/include/c++/8/bits/locale_facets.tcc \
  /usr/include/c++/8/bits/basic_ios.tcc \
  /usr/include/c++/8/bits/ostream.tcc /usr/include/c++/8/istream \
- /usr/include/c++/8/bits/istream.tcc /home/syjl/CMakeLearn/v1/head.h
+ /usr/include/c++/8/bits/istream.tcc \
+ /home/syjl/CMakeLearn/v1/include/head.h
