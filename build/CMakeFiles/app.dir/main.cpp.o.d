@@ -1,4 +1,4 @@
-CMakeFiles/calc.dir/src/div.cpp.o: /home/syjl/CMakeLearn/v2/src/div.cpp \
+CMakeFiles/app.dir/main.cpp.o: /home/syjl/CMakeLearn/v3/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/8/iostream \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -110,4 +110,4 @@ CMakeFiles/calc.dir/src/div.cpp.o: /home/syjl/CMakeLearn/v2/src/div.cpp \
  /usr/include/c++/8/bits/basic_ios.tcc \
  /usr/include/c++/8/bits/ostream.tcc /usr/include/c++/8/istream \
  /usr/include/c++/8/bits/istream.tcc \
- /home/syjl/CMakeLearn/v2/include/head.h
+ /home/syjl/CMakeLearn/v3/include/head.h

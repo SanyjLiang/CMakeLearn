@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/syjl/abcdefg/libcalc.a CMakeFiles/calc.dir/src/add.cpp.o CMakeFiles/calc.dir/src/div.cpp.o CMakeFiles/calc.dir/src/muli.cpp.o CMakeFiles/calc.dir/src/sub.cpp.o
-/usr/bin/ranlib /home/syjl/abcdefg/libcalc.a
