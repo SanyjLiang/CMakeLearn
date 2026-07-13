@@ -7,13 +7,26 @@ project(test)
 #aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC)
 file(GLOB SRC ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 
-#设置生成的可执行程序放在哪个路径下
-set(EXECUTABLE_OUTPUT_PATH /home/syjl/aa/bb/cc)
+#设置生成的可执行程序放在哪个路径下(也可以不设置)
+#set(EXECUTABLE_OUTPUT_PATH /home/syjl/aa/bb/cc)
 
 #指定头文件
 include_directories(${PROJECT_SOURCE_DIR}/include)
+
 #设置语言标准，当前设置为C++11
 set(CMAKE_CXX_STANDARD 11)
 
 #生成可执行程序
-add_executable(app ${SRC})
+#add_executable(app ${SRC})
+
+#指定动态库生成的文件路径（可以不指定，默认在构建目录下，即build）
+#set(LIBRARY_OUTPUT_PATH /home/syjl/abcdefg)
+
+#添加动态库
+#add_library(calc SHARED ${SRC})
+
+#指定静态库生成的文件路径（可以不指定，默认在构建目录下，即build）
+set(LIBRARY_OUTPUT_PATH /home/syjl/abcdefg)
+
+#添加静态库
+add_library(calc STATIC ${SRC})

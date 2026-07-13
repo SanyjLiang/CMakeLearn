@@ -1,0 +1,3 @@
+/home/syjl/CMakeLearn/v2/build/CMakeFiles/rebuild_cache.dir
+/home/syjl/CMakeLearn/v2/build/CMakeFiles/calc.dir
+/home/syjl/CMakeLearn/v2/build/CMakeFiles/edit_cache.dir
